@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandas y artistas — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bandas.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Bandas y artistas</h1>
+        <nav class="nav-cabecera">
+            <a href="locales.html" class="boton">Locales</a>
+            <a href="calendario.html" class="boton">Calendario</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <div class="contenedor-listado">
+
+        <!-- ===== FILTROS ===== -->
+        <aside class="sidebar-filtros">
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-busqueda">Buscar</label>
+                <input type="search" id="filtro-busqueda" class="filtro-texto"
+                       placeholder="Nombre de la banda…" autocomplete="off">
+            </div>
+
+            <div class="grupo-filtro">
+                <span class="titulo-filtro">Orden</span>
+                <div class="botones-orden">
+                    <button class="btn-orden activo" id="btn-az" type="button">A – Z</button>
+                    <button class="btn-orden" id="btn-za" type="button">Z – A</button>
+                </div>
+            </div>
+
+            <div class="grupo-filtro">
+                <span class="titulo-filtro">Estado</span>
+                <label class="opcion-check"><input type="checkbox" class="filtro-estado" value="activa" checked> Activa</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-estado" value="disuelta" checked> Disuelta</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-estado" value="en-pausa" checked> En pausa</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-estado" value="desconocido" checked> Desconocido</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-estado" value="cambio-nombre" checked> Cambio de nombre</label>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-genero">Género</label>
+                <select class="filtro-select" id="filtro-genero">
+                    <option value="">Todos los géneros</option>
+                    <option value="alternativo-indie">Rock alternativo / Indie</option>
+                    <option value="hard-rock">Hard rock / Rock clásico</option>
+                    <option value="punk">Punk / Post-punk</option>
+                    <option value="metal">Metal</option>
+                    <option value="progresivo">Rock progresivo / Psicodélico</option>
+                    <option value="pop-rock">Pop rock</option>
+                    <option value="fusion">Fusión / Experimental</option>
+                    <option value="">Por definir</option>
+                </select>
+            </div>
+
+            <!-- Las ciudades se llenan solas desde el JSON: si agregas una banda
+                 de una ciudad nueva, aparece aquí automáticamente -->
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-ciudad">Ciudad</label>
+                <select class="filtro-select" id="filtro-ciudad">
+                    <option value="">Todas las ciudades</option>
+                </select>
+            </div>
+
+            <p class="contador-resultados" id="contador">—</p>
+
+        </aside>
+
+        <!-- ===== CUADRÍCULA (se llena desde data/bandas.json) ===== -->
+        <main class="grid-artistas" id="grid-artistas">
+            <p class="estado-vacio">Cargando bandas…</p>
+        </main>
+
+    </div>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/bandas.js"></script>
+</body>
+</html>

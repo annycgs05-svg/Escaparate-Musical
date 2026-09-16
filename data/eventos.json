@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ejemplo-1",
+    "fecha": "2026-10-15",
+    "hora": "20:00",
+    "titulo": "Da Pawn — Formato acústico",
+    "artistas": ["Da Pawn"],
+    "localId": "teatro-sucre",
+    "local": "Teatro Nacional Sucre",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "tipoValue": "concierto",
+    "tipoLabel": "Concierto",
+    "precio": "Desde $15",
+    "entradasLink": "",
+    "notas": "Ejemplo de evento. Reemplaza o borra esta entrada cuando tengas fechas reales."
+  },
+  {
+    "id": "ejemplo-2",
+    "fecha": "2026-11-08",
+    "hora": "19:00",
+    "titulo": "Noche de escena independiente",
+    "artistas": ["Guardarraya", "Lolabum"],
+    "localId": "plaza-belmonte",
+    "local": "Plaza Belmonte",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "tipoValue": "festival",
+    "tipoLabel": "Festival",
+    "precio": "Desde $20",
+    "entradasLink": "",
+    "notas": "Ejemplo de evento."
+  }
+]

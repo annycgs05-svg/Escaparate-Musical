@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locales y escenarios — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/locales.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Locales y escenarios</h1>
+        <nav class="nav-cabecera">
+            <a href="bandas.html" class="boton">Bandas</a>
+            <a href="calendario.html" class="boton">Calendario</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <div class="contenedor-listado">
+
+        <aside class="sidebar-filtros">
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-busqueda">Buscar</label>
+                <input type="search" id="filtro-busqueda" class="filtro-texto"
+                       placeholder="Nombre del local…" autocomplete="off">
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-ciudad">Ciudad</label>
+                <select class="filtro-select" id="filtro-ciudad">
+                    <option value="">Todas las ciudades</option>
+                </select>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-tipo">Tipo de espacio</label>
+                <select class="filtro-select" id="filtro-tipo">
+                    <option value="">Todos los tipos</option>
+                    <option value="teatro">Teatro / Auditorio</option>
+                    <option value="bar">Bar / Club</option>
+                    <option value="arena">Arena / Coliseo</option>
+                    <option value="aire-libre">Al aire libre</option>
+                    <option value="cultural">Centro cultural</option>
+                    <option value="estudio">Estudio / Sala de ensayo</option>
+                </select>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-aforo">Aforo mínimo</label>
+                <select class="filtro-select" id="filtro-aforo">
+                    <option value="0">Cualquier aforo</option>
+                    <option value="100">Desde 100 personas</option>
+                    <option value="300">Desde 300 personas</option>
+                    <option value="800">Desde 800 personas</option>
+                    <option value="2000">Desde 2.000 personas</option>
+                </select>
+            </div>
+
+            <p class="contador-resultados" id="contador">—</p>
+
+        </aside>
+
+        <main class="grid-locales" id="grid-locales">
+            <p class="estado-vacio">Cargando locales…</p>
+        </main>
+
+    </div>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/locales.js"></script>
+</body>
+</html>

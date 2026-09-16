@@ -1,0 +1,89 @@
+/* =========================================================================
+   BANDAS — listado con filtros
+   Depende de css/base.css
+   ========================================================================= */
+
+.contenedor-listado {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+/* Cuadrícula de tarjetas */
+.grid-artistas {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px 26px;
+    align-content: start;
+}
+
+.tarjeta-artista {
+    text-decoration: none;
+    color: var(--crema);
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-foto {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--superficie);
+    overflow: hidden;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    margin-bottom: 12px;
+}
+
+.contenedor-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%) contrast(112%);
+    transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+/* Al pasar el cursor la foto recupera su color: premia la exploración */
+.tarjeta-artista:hover .contenedor-foto img {
+    filter: grayscale(0%) contrast(100%);
+    transform: scale(1.05);
+}
+.tarjeta-artista:hover .contenedor-foto { border-color: var(--rojo); }
+.tarjeta-artista:hover .nombre-banda { color: var(--rojo-brillo); }
+
+.nombre-banda {
+    font-family: var(--fuente-titulo);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+    transition: color var(--transicion);
+}
+
+.detalles-banda {
+    font-size: 0.75rem;
+    color: var(--tenue);
+    margin: 0;
+    line-height: 1.45;
+}
+
+/* Etiqueta de estado sobre la tarjeta (solo si no está activa) */
+.marca-estado {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--crema-suave);
+    border: 1px solid var(--borde);
+    border-radius: 2px;
+    padding: 1px 6px;
+    margin-top: 6px;
+}
+
+@media (max-width: 900px) {
+    .contenedor-listado { flex-direction: column; gap: 0; }
+    .grid-artistas { width: 100%; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 22px 16px; }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases e intérpretes — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/clases.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Clases e intérpretes</h1>
+        <nav class="nav-cabecera">
+            <a href="bandas.html" class="boton">Bandas</a>
+            <a href="locales.html" class="boton">Locales</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <p class="intro-seccion">
+        Profesores, sesionistas e intérpretes disponibles para clases, grabaciones
+        y refuerzos en vivo.
+    </p>
+
+    <div class="contenedor-listado">
+
+        <aside class="sidebar-filtros">
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-busqueda">Buscar</label>
+                <input type="search" id="filtro-busqueda" class="filtro-texto"
+                       placeholder="Nombre…" autocomplete="off">
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-instrumento">Instrumento</label>
+                <select class="filtro-select" id="filtro-instrumento">
+                    <option value="">Todos los instrumentos</option>
+                    <option value="guitarra">Guitarra</option>
+                    <option value="bajo">Bajo</option>
+                    <option value="bateria">Batería</option>
+                    <option value="teclados">Teclados / Piano</option>
+                    <option value="voz">Voz / Canto</option>
+                    <option value="vientos">Vientos</option>
+                    <option value="cuerdas">Cuerdas</option>
+                    <option value="produccion">Producción / Mezcla</option>
+                </select>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-ciudad">Ciudad</label>
+                <select class="filtro-select" id="filtro-ciudad">
+                    <option value="">Todas las ciudades</option>
+                </select>
+            </div>
+
+            <div class="grupo-filtro">
+                <span class="titulo-filtro">Modalidad</span>
+                <label class="opcion-check"><input type="checkbox" class="filtro-modalidad" value="presencial" checked> Presencial</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-modalidad" value="online" checked> En línea</label>
+                <label class="opcion-check"><input type="checkbox" class="filtro-modalidad" value="mixta" checked> Mixta</label>
+            </div>
+
+            <p class="contador-resultados" id="contador">—</p>
+
+        </aside>
+
+        <main class="grid-clases" id="grid-clases">
+            <p class="estado-vacio">Cargando…</p>
+        </main>
+
+    </div>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/clases.js"></script>
+</body>
+</html>

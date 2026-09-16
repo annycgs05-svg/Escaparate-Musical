@@ -1,0 +1,91 @@
+/* =========================================================================
+   LOCALES — listado con filtros
+   Depende de css/base.css
+   ========================================================================= */
+
+.contenedor-listado {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.grid-locales {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 26px;
+    align-content: start;
+}
+
+.tarjeta-local {
+    text-decoration: none;
+    color: var(--crema);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    overflow: hidden;
+    transition: border-color var(--transicion), background-color var(--transicion);
+}
+.tarjeta-local:hover {
+    border-color: var(--rojo);
+    background-color: var(--superficie-hover);
+}
+
+.foto-local {
+    width: 100%;
+    height: 155px;
+    background-color: var(--fondo-elevado);
+    overflow: hidden;
+    border-bottom: 1px solid var(--borde);
+}
+.foto-local img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(75%) contrast(110%);
+    transition: transform 0.45s ease, filter 0.45s ease;
+}
+.tarjeta-local:hover .foto-local img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.info-local { padding: 16px 17px 18px; }
+
+.nombre-local {
+    font-family: var(--fuente-titulo);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin: 0 0 9px 0;
+    line-height: 1.25;
+}
+
+.fila-local {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 0.78rem;
+    color: var(--tenue);
+    margin: 0 0 5px 0;
+}
+
+.tipo-local { font-size: 0.75rem; color: var(--apagado); margin: 0; }
+
+/* El aforo es el dato que más pesa al elegir dónde tocar: va destacado */
+.aforo {
+    color: var(--rojo-brillo);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+    .contenedor-listado { flex-direction: column; gap: 0; }
+    .grid-locales { width: 100%; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 18px; }
+}

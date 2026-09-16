@@ -1,0 +1,171 @@
+/* =========================================================================
+   INICIO — portada del sitio
+   Depende de css/base.css (tokens, botones, pie).
+   ========================================================================= */
+
+.pagina-inicio { padding: 24px 40px; }
+
+/* ---- Barra superior derecha: Ingresar / Registrarse ---- */
+.barra-superior {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* ---- Rejilla principal: marca | menú ---- */
+.portada {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    align-items: center;
+    gap: 70px;
+    flex: 1;
+    max-width: var(--ancho-max);
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 60px;
+}
+
+/* ---------------------------------------------------------------
+   COLUMNA IZQUIERDA — logo, propuesta y llamada a la acción
+   --------------------------------------------------------------- */
+.columna-marca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+}
+
+.logo-imagen {
+    width: 480px;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 40px var(--rojo-glow));
+}
+
+/* Logotipo escrito: sirve de respaldo si no hay img/logo.png */
+.logo-texto {
+    display: none;            /* lo activa el onerror del <img> */
+    font-family: var(--fuente-titulo);
+    font-weight: 600;
+    font-size: clamp(2.8rem, 7vw, 5.2rem);
+    line-height: 0.92;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--crema);
+    text-shadow: 0 0 45px var(--rojo-glow);
+}
+.logo-texto span { display: block; }
+.logo-texto span:last-child { letter-spacing: 8px; }
+
+.propuesta-valor {
+    color: var(--crema-suave);
+    font-size: 1.05rem;
+    max-width: 30ch;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.boton-explorar {
+    padding: 14px 40px;
+    font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------------
+   COLUMNA DERECHA — hashtag, menú y palabra del día
+   --------------------------------------------------------------- */
+.columna-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 26px;
+    max-width: 360px;
+    width: 100%;
+    justify-self: center;
+}
+
+.hashtag {
+    font-family: var(--fuente-titulo);
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    color: var(--crema-suave);
+    text-align: right;
+    margin: 0;
+}
+
+.menu-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+/* Botones grandes del menú */
+.cajon-boton {
+    background-color: rgba(20, 13, 15, 0.75);
+    border: 1px solid var(--crema);
+    border-radius: var(--radio);
+    padding: 12px 20px;
+    text-decoration: none;
+    color: var(--crema);
+    text-align: center;
+    font-size: 0.98rem;
+    transition: background-color var(--transicion), box-shadow var(--transicion), color var(--transicion);
+}
+.cajon-boton:hover {
+    background-color: var(--rojo);
+    border-color: var(--rojo-brillo);
+    box-shadow: 0 0 20px var(--rojo-glow);
+}
+
+/* Palabra del día */
+.cuadro-palabra {
+    background-color: rgba(20, 13, 15, 0.8);
+    border: 1px solid var(--crema);
+    border-radius: var(--radio);
+    padding: 26px 24px;
+    min-height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    transition: opacity 0.45s ease-in-out;
+}
+
+#palabra-titulo {
+    font-family: var(--fuente-titulo);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+    color: var(--crema);
+}
+
+#palabra-definicion {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--crema-suave);
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------
+   PANTALLAS PEQUEÑAS
+   --------------------------------------------------------------- */
+@media (max-width: 950px) {
+    .portada {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        padding-bottom: 40px;
+    }
+    .columna-menu { max-width: 420px; margin: 0 auto; }
+    .hashtag { text-align: center; }
+    .logo-imagen { width: 340px; }
+}
+
+@media (max-width: 600px) {
+    .pagina-inicio { padding: 16px; }
+    .barra-superior { justify-content: center; }
+    .cuadro-palabra { min-height: 0; padding: 20px; }
+    #palabra-titulo { font-size: 1.6rem; }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cartelera.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Cartelera</h1>
+        <nav class="nav-cabecera">
+            <a href="bandas.html" class="boton">Bandas</a>
+            <a href="calendario.html" class="boton">Calendario</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <!-- Aviso de última actualización: genera confianza en que el sitio está vivo -->
+    <div class="banner-actualizacion">
+        <span class="punto-vivo" aria-hidden="true"></span>
+        <strong id="texto-relativo">Actualizando…</strong>
+        <span class="fecha-exacta" id="texto-fecha-exacta"></span>
+    </div>
+
+    <main class="contenido-cartelera">
+
+        <section class="seccion">
+            <div class="cabecera-bloque">
+                <h2 class="titulo-bloque">Lanzamientos de la semana</h2>
+                <p class="subtitulo-bloque">Lo nuevo de la escena, recién salido</p>
+            </div>
+            <div class="carrusel">
+                <button class="btn-carrusel" onclick="moverCarrusel(-1)" aria-label="Anterior">‹</button>
+                <div class="pista-carrusel" id="pista-lanzamientos"></div>
+                <button class="btn-carrusel" onclick="moverCarrusel(1)" aria-label="Siguiente">›</button>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="cabecera-bloque">
+                <h2 class="titulo-bloque">Recomendaciones</h2>
+                <p class="subtitulo-bloque">Curado a mano, sin algoritmo de por medio</p>
+            </div>
+            <div class="grid-recomendaciones" id="grid-recomendaciones"></div>
+        </section>
+
+        <section class="seccion">
+            <div class="cabecera-bloque">
+                <h2 class="titulo-bloque">Notas de prensa</h2>
+                <p class="subtitulo-bloque">Lo que se está hablando sobre la escena</p>
+            </div>
+            <div class="lista-prensa" id="lista-prensa"></div>
+        </section>
+
+        <section class="seccion">
+            <div class="cabecera-bloque">
+                <h2 class="titulo-bloque">Radar de festivales</h2>
+                <p class="subtitulo-bloque">Lo que se viene en la ciudad y el país</p>
+            </div>
+            <div class="grid-festivales" id="grid-festivales"></div>
+        </section>
+
+    </main>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/cartelera.js"></script>
+</body>
+</html>

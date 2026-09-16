@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Contactos</h1>
+        <nav class="nav-cabecera">
+            <a href="nosotros.html" class="boton">Nosotros</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <main class="contenedor-contacto">
+
+        <section class="intro-contacto">
+            <h2>Suma tu proyecto al archivo</h2>
+            <p>
+                Escaparate Musical se construye con lo que nos manda la escena.
+                Si falta tu banda, tu local o tu perfil como intérprete, escríbenos
+                y lo publicamos.
+            </p>
+        </section>
+
+        <!-- Vías de contacto directo -->
+        <section class="vias">
+            <a href="mailto:contacto@escaparatemusical.com" class="via">
+                <h3>Correo</h3>
+                <p>contacto@escaparatemusical.com</p>
+                <span>Para fichas completas, correcciones y prensa</span>
+            </a>
+
+            <a href="https://wa.me/593999937339" target="_blank" rel="noopener" class="via">
+                <h3>WhatsApp</h3>
+                <p>099 993 7339</p>
+                <span>Lo más rápido para anunciar una fecha</span>
+            </a>
+
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="via">
+                <h3>Instagram</h3>
+                <p>@escaparatemusical</p>
+                <span>Novedades diarias de la escena</span>
+            </a>
+        </section>
+
+        <!-- Formulario: abre el correo del usuario con todo prellenado -->
+        <section class="caja bloque-formulario">
+            <h2>Envíanos los datos</h2>
+            <p class="nota-formulario">
+                Completa lo que sepas. Al enviar se abre tu programa de correo
+                con el mensaje listo.
+            </p>
+
+            <form id="formulario-contacto" novalidate>
+
+                <div class="campo">
+                    <label for="tipo">¿Qué quieres registrar?</label>
+                    <select id="tipo" class="filtro-select" required>
+                        <option value="">Elige una opción</option>
+                        <option value="Banda o artista">Banda o artista</option>
+                        <option value="Local o escenario">Local o escenario</option>
+                        <option value="Clases o intérprete">Clases o intérprete</option>
+                        <option value="Fecha de concierto">Fecha de concierto</option>
+                        <option value="Corrección de datos">Corrección de datos</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="fila-campos">
+                    <div class="campo">
+                        <label for="nombre">Tu nombre</label>
+                        <input type="text" id="nombre" class="filtro-texto" required>
+                    </div>
+                    <div class="campo">
+                        <label for="correo">Tu correo</label>
+                        <input type="email" id="correo" class="filtro-texto" required>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="proyecto">Nombre del proyecto, local o persona</label>
+                    <input type="text" id="proyecto" class="filtro-texto">
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Cuéntanos los detalles</label>
+                    <textarea id="mensaje" class="filtro-texto" rows="6"
+                              placeholder="Ciudad, género, años de actividad, integrantes, enlaces a Spotify o redes…"></textarea>
+                </div>
+
+                <p class="error-formulario" id="error-formulario" hidden></p>
+
+                <button type="submit" class="boton boton-crema">Preparar correo</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/contactos.js"></script>
+</body>
+</html>

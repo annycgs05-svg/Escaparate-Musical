@@ -1,0 +1,1912 @@
+[
+  {
+    "id": "tripulacion-de-osos",
+    "nombre": "Tripulación de Osos",
+    "foto": "img/tripulacion-de-osos.jpg",
+    "estadoValue": "disuelta",
+    "estadoLabel": "Disuelta",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "alternativo-indie",
+    "generoLabel": "Rock Alternativo / Indie",
+    "aniosActividad": "2013 - 2021",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "Banda quiteña de indie rock que marcó a toda una generación de la escena local antes de su separación en 2021.",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Mauro Samaniego",
+        "rol": "Guitarra y Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Juan Andrés Bustamante",
+        "rol": "Guitarra y Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Luis Alberto Cisneros",
+        "rol": "Bajo y Coros",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Sebastián Jaramillo",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "da-pawn",
+    "nombre": "Da Pawn",
+    "foto": "img/Da Pawn.jpg",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "alternativo-indie",
+    "generoLabel": "Rock Alternativo / Indie",
+    "aniosActividad": "2010 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "Proyecto quiteño liderado por Mauro Samaniego. Combina texturas de rock alternativo, folk e indie acústico con letras introspectivas y arreglos densos. Pilar de la escena independiente de la capital.",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Mauro Samaniego",
+        "rol": "Guitarra y Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Pedro Ortiz",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Fernando Procel",
+        "rol": "Bajo",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Alejandro Naranjo",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Felipe Andino",
+        "rol": "Teclados",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Martín Samaniego",
+        "rol": "Guitarra y Arreglos",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "flixx-pussy-cola",
+    "nombre": "Flixx Pussy Cola",
+    "foto": "img/Flixx Pussy Cola.jpg",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "punk",
+    "generoLabel": "Punk / Post-Punk",
+    "aniosActividad": "2017 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "Punk y post-punk desde Quito, con una presencia en vivo directa y sin adornos.",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Lucas Ortiz",
+        "rol": "Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Joaquín Andino",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Gabriel Patiño",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Sebastián Jarrín",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "guardarraya",
+    "nombre": "Guardarraya",
+    "foto": "img/Guardarraya.jpg",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "fusion",
+    "generoLabel": "Fusión / Experimental",
+    "aniosActividad": "1999 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "Una de las bandas más representativas de la fusión y el rock alternativo ecuatoriano. Más de dos décadas construyendo un sonido propio entre lo andino y lo eléctrico.",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Álvaro Bermeo",
+        "rol": "Guitarra y Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Mateo Crespo",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Andrés Caicedo",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Jason De la Vega",
+        "rol": "Guitarra y Sintetizadores",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Felipe Andino",
+        "rol": "Teclados",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Franco Aguirre",
+        "rol": "Bajo",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "biorn-borg",
+    "nombre": "Biorn Borg",
+    "foto": "",
+    "estadoValue": "disuelta",
+    "estadoLabel": "Disuelta",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2007 - 2012",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Sofía Abedrabbo",
+        "rol": "Voces",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Toño Cepeda",
+        "rol": "Bajo y Voces",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Pablo Maya",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Sebastián Game",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Bastián Napolitano",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "lolabum",
+    "nombre": "Lolabum",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2014 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Pedro Bonfim",
+        "rol": "Voz, Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Martín Erazo",
+        "rol": "Bajo y Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Jim Fabre",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Joaquín Prado",
+        "rol": "Guitarra, Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "alkaloides",
+    "nombre": "Alkaloides",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2010 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Carlos Espinosa",
+        "rol": "Guitarra, Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Mateo Castillo",
+        "rol": "Guitarra, Coros",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Mateo del Pozo",
+        "rol": "Bajo, Coros",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Nicolás Meneses",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "swing-original-monks",
+    "nombre": "Swing Original Monks",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "fusion",
+    "generoLabel": "Fusión / Experimental",
+    "aniosActividad": "2010 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "mauro-samaniego",
+    "nombre": "Mauro Samaniego",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2020 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "tataranietos",
+    "nombre": "Tataranietos",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito - Madrid",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2026 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "paola-navarrete",
+    "nombre": "Paola Navarrete",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2015 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "estamos-perdidos",
+    "nombre": "Estamos Perdidos",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [
+      {
+        "nombre": "Pixie",
+        "rol": "Voz",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Nicolás Gómez",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Andrés Bastidas",
+        "rol": "Guitarra",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Juanki",
+        "rol": "Bajo",
+        "periodo": "",
+        "categoria": "actuales"
+      },
+      {
+        "nombre": "Nicolás Cevallos",
+        "rol": "Batería",
+        "periodo": "",
+        "categoria": "actuales"
+      }
+    ],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "pan-de-dulce",
+    "nombre": "Pan de Dulce",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "les-petit-bastards",
+    "nombre": "Les Petit Bastards",
+    "foto": "",
+    "estadoValue": "disuelta",
+    "estadoLabel": "Disuelta",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "el-general-villamil",
+    "nombre": "El General Villamil",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "guayaquil",
+    "ciudad": "Guayaquil",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "esto-es-eso",
+    "nombre": "Esto es Eso",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "miel",
+    "nombre": "Miel",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "verde-70",
+    "nombre": "Verde 70",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "cementerio-de-elefantes",
+    "nombre": "Cementerio de Elefantes",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "la-madre-tirana",
+    "nombre": "La Madre Tirana",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "cuenca",
+    "ciudad": "Cuenca",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "tenoch",
+    "nombre": "Tenoch",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "derian-dorian",
+    "nombre": "Derian Dorian",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "pearliz",
+    "nombre": "Pearliz",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito - Argentina",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "fox-island",
+    "nombre": "Fox Island",
+    "foto": "",
+    "estadoValue": "en-pausa",
+    "estadoLabel": "En pausa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito - Ibarra",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "biera",
+    "nombre": "Biera",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "3vol",
+    "nombre": "3Vol",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "mexicoke",
+    "nombre": "Mexicoke",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "letelefono",
+    "nombre": "Letelefono",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "cuenca",
+    "ciudad": "Cuenca",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "cometa-sucre",
+    "nombre": "Cometa Sucre",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "boris-vian",
+    "nombre": "Boris Vian",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "panico",
+    "nombre": "Pánico",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "menino-gutto",
+    "nombre": "Menino Gutto",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "bardo-jose",
+    "nombre": "Bardo José",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "amantina",
+    "nombre": "Amantina",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "chloe-silva",
+    "nombre": "Chloe Silva",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "mishel-espinosa",
+    "nombre": "Mishel Espinosa",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "gonzalo-avila",
+    "nombre": "Gonzalo Ávila",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "alex-ponce",
+    "nombre": "Alex Ponce",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "jombriel",
+    "nombre": "Jombriel",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "rocola-bacalao",
+    "nombre": "Rocola Bacalao",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "la-maquina-camaleon",
+    "nombre": "La Máquina Camaleón",
+    "foto": "",
+    "estadoValue": "activa",
+    "estadoLabel": "Activa",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "2012 - Presente",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "machaka",
+    "nombre": "Machaka",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "no-gracias",
+    "nombre": "No Gracias",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "tranzas",
+    "nombre": "Tranzas",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "papaya-dada",
+    "nombre": "Papaya Dada",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "maidbrain",
+    "nombre": "MaidBrain",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "minipony",
+    "nombre": "Minipony",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "la-torre",
+    "nombre": "La Torre",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito - España",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "fiebre",
+    "nombre": "Fiebre",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "paulatinamente",
+    "nombre": "Paulatinamente",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "el-mal-juglar",
+    "nombre": "El Mal Juglar",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "los-esqueletitos",
+    "nombre": "Los Esqueletitos",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "tonicamo",
+    "nombre": "Tonicamo",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  },
+  {
+    "id": "silvestre-eskalon",
+    "nombre": "Silvestre Eskalón",
+    "foto": "",
+    "estadoValue": "desconocido",
+    "estadoLabel": "Desconocido",
+    "ciudadValue": "",
+    "ciudad": "",
+    "pais": "Ecuador",
+    "generoValue": "",
+    "generoLabel": "Por definir",
+    "aniosActividad": "",
+    "sello": "",
+    "contacto": "",
+    "descripcion": "",
+    "discografia": {
+      "eps": [],
+      "albumes": [],
+      "sencillos": []
+    },
+    "integrantes": [],
+    "canciones": [],
+    "links": {
+      "spotify": "",
+      "youtube": "",
+      "instagram": "",
+      "tiktok": "",
+      "bandcamp": "",
+      "web": ""
+    }
+  }
+]

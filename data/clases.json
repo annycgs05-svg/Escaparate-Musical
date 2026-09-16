@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ejemplo-guitarra",
+    "nombre": "Nombre del profesor o profesora",
+    "foto": "",
+    "instrumentoValue": "guitarra",
+    "instrumentoLabel": "Guitarra",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "modalidadValue": "presencial",
+    "modalidadLabel": "Presencial",
+    "nivel": "Principiante a intermedio",
+    "precio": "",
+    "descripcion": "Entrada de ejemplo. Reemplázala o bórrala cuando tengas profesores reales registrados.",
+    "contacto": "",
+    "links": { "instagram": "", "web": "", "whatsapp": "" }
+  }
+]

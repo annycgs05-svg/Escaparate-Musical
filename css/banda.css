@@ -1,0 +1,104 @@
+/* =========================================================================
+   BANDA — ficha individual
+   Depende de css/base.css
+   ========================================================================= */
+
+.perfil-arriba {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 28px;
+    margin-bottom: 36px;
+}
+
+.contenedor-foto-perfil {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    overflow: hidden;
+}
+.contenedor-foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%) contrast(106%);
+}
+
+.columna-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.caja-descripcion h2 {
+    font-family: var(--fuente-titulo);
+    margin: 0 0 12px 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: var(--tenue);
+    border-bottom: 1px solid var(--borde-suave);
+    padding-bottom: 10px;
+}
+.caja-descripcion p {
+    margin: 0;
+    color: var(--crema-suave);
+    line-height: 1.7;
+    max-width: 72ch;
+}
+
+/* ---- Discografía ---- */
+.bloque-disco { margin-bottom: 28px; }
+.bloque-disco:last-child { margin-bottom: 0; }
+
+.subtitulo-disco {
+    font-family: var(--fuente-titulo);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--rojo-brillo);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.lista-canciones {
+    margin: 6px 0 0 18px;
+    padding: 0;
+    color: var(--tenue);
+    font-size: 0.85em;
+}
+.lista-canciones li { margin-bottom: 2px; }
+
+/* ---- Enlaces externos ---- */
+.lista-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 12px;
+}
+.lista-links a {
+    color: var(--crema);
+    text-decoration: none;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 11px 15px;
+    transition: all var(--transicion);
+}
+.lista-links a:hover {
+    border-color: var(--rojo);
+    background-color: var(--rojo-tinte);
+}
+
+@media (max-width: 800px) {
+    .perfil-arriba { grid-template-columns: 1fr; gap: 20px; }
+    .contenedor-foto-perfil { max-width: 300px; aspect-ratio: 1 / 1; }
+}

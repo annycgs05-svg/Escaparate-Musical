@@ -1,0 +1,507 @@
+/* =========================================================================
+   ESCAPARATE MUSICAL — HOJA BASE
+   -------------------------------------------------------------------------
+   Este archivo define TODO lo que se repite en el sitio: colores, tipografía,
+   cabecera, pie de página, botones y estados vacíos.
+
+   REGLA DE ORO: si quieres cambiar el color de acento de TODO el sitio,
+   cambia una sola línea aquí abajo (--rojo) y se actualiza en cada página.
+
+   Cárgalo SIEMPRE antes del CSS propio de cada página:
+     <link rel="stylesheet" href="css/base.css">
+     <link rel="stylesheet" href="css/bandas.css">
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   1. TOKENS — la paleta y las medidas del sitio en un solo lugar
+   ------------------------------------------------------------------------- */
+:root {
+    /* Fondos, de más oscuro a más claro */
+    --fondo:            #0A0607;   /* Negro con subtono cálido */
+    --fondo-elevado:    #110B0C;   /* Barras, cabeceras de tabla */
+    --superficie:       #150E10;   /* Cajas y tarjetas */
+    --superficie-hover: #1E1416;   /* Tarjeta con el cursor encima */
+
+    /* Líneas */
+    --borde:        #2C1E20;       /* Borde normal */
+    --borde-suave:  #1C1315;       /* Separadores internos */
+
+    /* Textos */
+    --crema:        #F2EBDC;       /* Texto principal */
+    --crema-suave:  #C4B8A8;       /* Texto secundario */
+    --tenue:        #8A7A74;       /* Etiquetas, metadatos */
+    --apagado:      #5C4F4B;       /* Texto deshabilitado / vacío */
+
+    /* Acento rojo — CAMBIA AQUÍ PARA CAMBIAR TODO EL SITIO */
+    --rojo:         #A81D23;
+    --rojo-brillo:  #C9302C;
+    --rojo-oscuro:  #5E1114;
+    --rojo-tinte:   rgba(168, 29, 35, 0.12);  /* Fondo translúcido */
+    --rojo-glow:    rgba(168, 29, 35, 0.35);  /* Resplandor */
+
+    /* Tipografía */
+    --fuente-titulo: 'Oswald', 'Segoe UI', Tahoma, sans-serif;
+    --fuente-texto:  'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Espaciado y medidas */
+    --ancho-max:  1400px;
+    --radio:      3px;
+    --transicion: 0.25s ease;
+}
+
+/* -------------------------------------------------------------------------
+   2. RESET Y BASE DEL DOCUMENTO
+   ------------------------------------------------------------------------- */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--fuente-texto);
+    background-color: var(--fondo);
+    /* Resplandor rojo tenue en las esquinas superiores, como en el logo */
+    background-image:
+        radial-gradient(ellipse 60% 45% at 15% 0%,  rgba(168,29,35,0.13), transparent 70%),
+        radial-gradient(ellipse 50% 40% at 88% 5%,  rgba(168,29,35,0.08), transparent 70%);
+    background-attachment: fixed;
+    color: var(--crema);
+    margin: 0;
+    padding: 20px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.55;
+}
+
+a { color: inherit; }
+
+/* Foco visible para quien navega con teclado (accesibilidad) */
+:focus-visible {
+    outline: 2px solid var(--rojo-brillo);
+    outline-offset: 2px;
+}
+
+/* Respeta a quien pidió menos animación en su sistema operativo */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   3. CABECERA DE SECCIÓN — la usan bandas, locales, cartelera, etc.
+   ------------------------------------------------------------------------- */
+.cabecera-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: 15px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.titulo-seccion {
+    font-family: var(--fuente-titulo);
+    font-size: 1.6em;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--crema);
+}
+
+/* Bloque de navegación a la derecha de la cabecera */
+.nav-cabecera {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* -------------------------------------------------------------------------
+   4. BOTONES — un solo sistema para todo el sitio
+   ------------------------------------------------------------------------- */
+
+/* Botón de contorno (el más común) */
+.boton {
+    font-family: var(--fuente-texto);
+    color: var(--crema);
+    background: transparent;
+    text-decoration: none;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 7px 16px;
+    font-size: 0.85em;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color var(--transicion), border-color var(--transicion), color var(--transicion);
+}
+.boton:hover {
+    background-color: var(--rojo);
+    border-color: var(--rojo);
+    color: var(--crema);
+}
+
+/* Botón sólido rojo, para la acción principal de una página */
+.boton-primario {
+    background-color: var(--rojo);
+    border-color: var(--rojo);
+    font-weight: 500;
+}
+.boton-primario:hover {
+    background-color: var(--rojo-brillo);
+    border-color: var(--rojo-brillo);
+}
+
+/* Botón crema, el más llamativo. Úsalo UNA sola vez por pantalla */
+.boton-crema {
+    background-color: var(--crema);
+    border-color: var(--crema);
+    color: var(--fondo);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.boton-crema:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--fondo);
+    box-shadow: 0 0 22px var(--rojo-glow);
+}
+
+/* Flecha de "volver" */
+.boton-volver { /* hereda de .boton, solo cambia el tamaño */
+    font-size: 0.82em;
+}
+
+/* -------------------------------------------------------------------------
+   5. FILTROS — barra lateral compartida por bandas, locales y clases
+   ------------------------------------------------------------------------- */
+.sidebar-filtros {
+    width: 225px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    border-right: 1px solid var(--borde-suave);
+    padding-right: 22px;
+}
+
+.grupo-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-filtro {
+    font-family: var(--fuente-titulo);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--tenue);
+    margin-bottom: 2px;
+}
+
+.botones-orden { display: flex; gap: 8px; }
+
+.btn-orden {
+    background: transparent;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    color: var(--crema-suave);
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: var(--fuente-texto);
+    font-size: 0.78em;
+    flex: 1;
+    transition: all var(--transicion);
+}
+.btn-orden:hover { border-color: var(--rojo); color: var(--crema); }
+.btn-orden.activo {
+    border-color: var(--rojo);
+    background-color: var(--rojo);
+    color: var(--crema);
+}
+
+.opcion-check {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 0.85em;
+    color: var(--crema-suave);
+    cursor: pointer;
+}
+.opcion-check input[type="checkbox"] {
+    accent-color: var(--rojo);
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.filtro-select,
+.filtro-texto {
+    background-color: var(--fondo-elevado);
+    color: var(--crema);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 8px 10px;
+    font-family: var(--fuente-texto);
+    font-size: 0.85em;
+    width: 100%;
+    outline: none;
+}
+.filtro-select { cursor: pointer; }
+.filtro-select:focus,
+.filtro-texto:focus { border-color: var(--rojo); }
+.filtro-texto::placeholder { color: var(--apagado); }
+
+/* Contador de resultados debajo de los filtros */
+.contador-resultados {
+    font-size: 0.78em;
+    color: var(--tenue);
+    border-top: 1px solid var(--borde-suave);
+    padding-top: 14px;
+}
+
+/* -------------------------------------------------------------------------
+   6. CAJAS DE FICHA — perfil de banda y de local
+   ------------------------------------------------------------------------- */
+.caja {
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 22px;
+}
+
+.caja-ficha {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px 22px;
+    font-size: 0.9em;
+}
+
+.item-ficha { display: flex; flex-direction: column; gap: 3px; }
+
+.etiqueta-ficha {
+    font-family: var(--fuente-titulo);
+    color: var(--tenue);
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.valor-ficha { color: var(--crema); font-weight: 500; }
+
+/* Color del estado de la banda según su valor */
+.estado-activa   { color: #6FBF73; font-weight: 600; }
+.estado-disuelta { color: var(--rojo-brillo); font-weight: 600; }
+.estado-en-pausa { color: #D9A441; font-weight: 600; }
+.estado-desconocido,
+.estado-cambio-nombre { color: var(--tenue); font-weight: 600; }
+
+/* -------------------------------------------------------------------------
+   7. PESTAÑAS — perfil de banda y de local
+   ------------------------------------------------------------------------- */
+.contenedor-pestanas {
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    background-color: var(--superficie);
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.barra-pestanas {
+    display: flex;
+    background-color: var(--fondo-elevado);
+    border-bottom: 1px solid var(--borde);
+    overflow-x: auto;
+}
+
+.btn-pestana {
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--borde);
+    color: var(--tenue);
+    padding: 13px 26px;
+    font-family: var(--fuente-titulo);
+    font-size: 0.82em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transicion);
+}
+.btn-pestana:hover { color: var(--crema); background-color: var(--superficie-hover); }
+.btn-pestana.activa {
+    color: var(--crema);
+    background-color: var(--rojo);
+}
+
+.contenido-pestana { display: none; padding: 26px; }
+.contenido-pestana.activo { display: block; }
+
+/* Sub-filtros dentro de una pestaña (ej. Actuales / Anteriores) */
+.sub-barra {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--borde-suave);
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-sub {
+    background: transparent;
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    color: var(--tenue);
+    padding: 5px 13px;
+    font-family: var(--fuente-texto);
+    font-size: 0.75em;
+    cursor: pointer;
+    transition: all var(--transicion);
+}
+.btn-sub:hover { border-color: var(--rojo); color: var(--crema); }
+.btn-sub.activo {
+    border-color: var(--rojo);
+    background-color: var(--rojo-tinte);
+    color: var(--crema);
+}
+
+/* -------------------------------------------------------------------------
+   8. TABLAS
+   ------------------------------------------------------------------------- */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+.tabla th {
+    font-family: var(--fuente-titulo);
+    text-align: left;
+    color: var(--tenue);
+    border-bottom: 1px solid var(--borde);
+    padding: 9px 12px;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+.tabla td {
+    padding: 11px 12px;
+    border-bottom: 1px solid var(--borde-suave);
+    color: var(--crema-suave);
+}
+.tabla tr:last-child td { border-bottom: none; }
+
+/* -------------------------------------------------------------------------
+   9. ESTADOS VACÍOS Y DE CARGA
+   Un estado vacío no es un error: es una invitación a hacer algo.
+   ------------------------------------------------------------------------- */
+.mensaje-vacio {
+    color: var(--apagado);
+    font-size: 0.87em;
+    font-style: italic;
+    margin: 14px 0;
+}
+
+.estado-vacio {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--tenue);
+}
+.estado-vacio strong {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-size: 1.15em;
+    letter-spacing: 1.5px;
+    color: var(--crema-suave);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.estado-vacio a { color: var(--rojo-brillo); }
+
+/* -------------------------------------------------------------------------
+   10. PIE DE PÁGINA
+   ------------------------------------------------------------------------- */
+.pie {
+    border-top: 1px solid var(--borde);
+    margin-top: auto;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.pie-redes { display: flex; gap: 26px; align-items: center; }
+
+.icono-footer {
+    display: inline-flex;
+    text-decoration: none;
+    transition: transform var(--transicion), opacity var(--transicion);
+}
+.icono-footer:hover { transform: scale(1.15); opacity: 0.85; }
+.icono-footer img { width: 34px; height: 34px; object-fit: contain; }
+
+.pie-texto {
+    font-size: 0.75em;
+    color: var(--apagado);
+    letter-spacing: 0.5px;
+}
+.pie-texto a { color: var(--tenue); text-decoration: none; }
+.pie-texto a:hover { color: var(--rojo-brillo); }
+
+/* -------------------------------------------------------------------------
+   11. PLACEHOLDER DE IMAGEN
+   Para bandas y locales que todavía no tienen foto cargada.
+   ------------------------------------------------------------------------- */
+.sin-foto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(135deg, var(--rojo-oscuro) 0%, #1A0F11 60%);
+    font-family: var(--fuente-titulo);
+    font-size: 2.6em;
+    font-weight: 600;
+    color: rgba(242, 235, 220, 0.35);
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+/* -------------------------------------------------------------------------
+   12. ADAPTACIÓN A PANTALLAS PEQUEÑAS
+   La mayoría de tu público entra desde el celular: esto no es opcional.
+   ------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+    body { padding: 16px 20px; }
+
+    .sidebar-filtros {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--borde-suave);
+        padding-right: 0;
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    body { padding: 14px 16px; }
+    .titulo-seccion { font-size: 1.25em; letter-spacing: 2px; }
+    .cabecera-seccion { gap: 12px; }
+    .btn-pestana { padding: 11px 16px; font-size: 0.75em; }
+    .contenido-pestana { padding: 18px 14px; }
+    .caja { padding: 16px; }
+    .pie { flex-direction: column; text-align: center; }
+}

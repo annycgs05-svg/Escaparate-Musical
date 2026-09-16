@@ -1,0 +1,98 @@
+/* =========================================================================
+   CUENTA — pantallas de Ingresar y Registrarse
+   Depende de css/base.css
+
+   NOTA IMPORTANTE: estas pantallas son solo la INTERFAZ. Todavía no hay
+   servidor que guarde usuarios, así que el botón muestra un aviso en vez
+   de crear una cuenta. Cuando montes un backend, conecta el envío del
+   formulario en js/cuenta.js.
+   ========================================================================= */
+
+body.pagina-cuenta {
+    align-items: center;
+    justify-content: center;
+}
+
+.marca-cuenta {
+    text-align: center;
+    margin-bottom: 34px;
+}
+.marca-cuenta a {
+    font-family: var(--fuente-titulo);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--crema);
+    text-shadow: 0 0 30px var(--rojo-glow);
+}
+
+.tarjeta-cuenta {
+    width: 100%;
+    max-width: 430px;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 36px 34px;
+    margin: 0 auto;
+}
+
+.tarjeta-cuenta h1 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin: 0 0 8px 0;
+}
+
+.subtitulo-cuenta {
+    color: var(--tenue);
+    font-size: 0.87rem;
+    margin: 0 0 28px 0;
+    line-height: 1.6;
+}
+
+.campo { display: flex; flex-direction: column; gap: 7px; margin-bottom: 18px; }
+.campo label { font-size: 0.82rem; color: var(--crema-suave); }
+
+.pista-campo { font-size: 0.75rem; color: var(--apagado); }
+
+.boton-ancho { width: 100%; text-align: center; padding: 13px; margin-top: 8px; }
+
+.aviso-cuenta {
+    background-color: var(--rojo-tinte);
+    border: 1px solid var(--rojo-oscuro);
+    border-radius: var(--radio);
+    padding: 13px 15px;
+    font-size: 0.82rem;
+    color: var(--crema-suave);
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+}
+
+.mensaje-cuenta {
+    font-size: 0.85rem;
+    margin: 16px 0 0 0;
+    line-height: 1.6;
+}
+.mensaje-cuenta.error { color: var(--rojo-brillo); }
+.mensaje-cuenta.ok    { color: #6FBF73; }
+
+.pie-cuenta {
+    text-align: center;
+    margin-top: 26px;
+    padding-top: 22px;
+    border-top: 1px solid var(--borde-suave);
+    font-size: 0.85rem;
+    color: var(--tenue);
+}
+.pie-cuenta a { color: var(--rojo-brillo); text-decoration: none; }
+.pie-cuenta a:hover { text-decoration: underline; }
+
+.fila-campos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+@media (max-width: 520px) {
+    .tarjeta-cuenta { padding: 28px 22px; }
+    .fila-campos { grid-template-columns: 1fr; gap: 0; }
+}

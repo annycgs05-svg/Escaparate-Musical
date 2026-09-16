@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escaparate Musical — La escena independiente ecuatoriana</title>
+    <meta name="description" content="Archivo y cartelera de la escena musical independiente del Ecuador: bandas, locales, conciertos y clases.">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- base.css SIEMPRE primero, luego el CSS de la página -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body class="pagina-inicio">
+
+    <!-- ===== BARRA SUPERIOR: cuenta de usuario ===== -->
+    <div class="barra-superior">
+        <a href="ingresar.html" class="boton">Ingresar</a>
+        <a href="registrarse.html" class="boton boton-primario">Registrarse</a>
+    </div>
+
+    <!-- ===== CUERPO: logo a la izquierda, menú a la derecha ===== -->
+    <main class="portada">
+
+        <!-- Columna izquierda -->
+        <section class="columna-marca">
+            <!-- Si guardas tu logo como img/logo.png se usa esa imagen.
+                 Si no existe, se muestra el logotipo escrito de abajo. -->
+            <img src="img/logo.png" alt="Escaparate Musical" class="logo-imagen"
+                 onerror="this.style.display='none'; document.getElementById('logo-texto').style.display='block';">
+
+            <h1 class="logo-texto" id="logo-texto">
+                <span>Escaparate</span>
+                <span>Musical</span>
+            </h1>
+
+            <p class="propuesta-valor">
+                Encuentra tu nicho, conecta con locales y haz crecer tu comunidad
+                dentro de la escena local.
+            </p>
+
+            <a href="cartelera.html" class="boton boton-crema boton-explorar">Explorar escaparate</a>
+        </section>
+
+        <!-- Columna derecha -->
+        <section class="columna-menu">
+            <p class="hashtag">#escaparatemusical</p>
+
+            <nav class="menu-vertical" aria-label="Secciones del sitio">
+                <a href="bandas.html"     class="cajon-boton">Bandas / Artistas</a>
+                <a href="locales.html"    class="cajon-boton">Locales</a>
+                <a href="calendario.html" class="cajon-boton">Calendario</a>
+                <a href="clases.html"     class="cajon-boton">Clases / Intérpretes</a>
+                <a href="nosotros.html"   class="cajon-boton">Nosotros</a>
+                <a href="contactos.html"  class="cajon-boton">Contactos</a>
+            </nav>
+
+            <!-- Diccionario rotativo: se llena desde js/inicio.js -->
+            <div class="cuadro-palabra" id="cuadro-palabra">
+                <h2 id="palabra-titulo">Cargando…</h2>
+                <p id="palabra-definicion"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/inicio.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* =========================================================================
+   CALENDARIO — agenda de conciertos
+   Depende de css/base.css
+   ========================================================================= */
+
+.contenedor-listado {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.lista-eventos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Encabezado de mes: agrupa los eventos y ordena la lectura */
+.mes-separador {
+    font-family: var(--fuente-titulo);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--rojo-brillo);
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: 8px;
+    margin: 32px 0 4px 0;
+}
+.mes-separador:first-child { margin-top: 0; }
+
+/* Una fila por evento: la fecha manda, el resto acompaña */
+.evento {
+    display: grid;
+    grid-template-columns: 78px 1fr auto;
+    gap: 22px;
+    align-items: center;
+    padding: 20px 4px;
+    border-bottom: 1px solid var(--borde-suave);
+    text-decoration: none;
+    color: var(--crema);
+    transition: background-color var(--transicion);
+}
+.evento:hover { background-color: var(--superficie); }
+
+/* Bloque de fecha grande a la izquierda */
+.evento-fecha { text-align: center; line-height: 1; }
+.evento-dia {
+    font-family: var(--fuente-titulo);
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: var(--crema);
+    display: block;
+}
+.evento-mes {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--tenue);
+    display: block;
+    margin-top: 4px;
+}
+
+.evento-cuerpo { min-width: 0; }
+
+.evento-titulo {
+    font-family: var(--fuente-titulo);
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 0 6px 0;
+    line-height: 1.3;
+}
+
+.evento-meta {
+    font-size: 0.82rem;
+    color: var(--tenue);
+    margin: 0;
+}
+.evento-meta strong { color: var(--crema-suave); font-weight: 500; }
+
+.evento-lado {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.evento-precio {
+    font-size: 0.85rem;
+    color: var(--rojo-brillo);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.evento-tipo {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--crema-suave);
+    border: 1px solid var(--borde);
+    border-radius: 2px;
+    padding: 2px 8px;
+}
+
+/* Un evento ya pasado se ve más apagado */
+.evento.pasado .evento-dia,
+.evento.pasado .evento-titulo { color: var(--tenue); }
+.evento.pasado .evento-precio { color: var(--apagado); }
+
+@media (max-width: 900px) {
+    .contenedor-listado { flex-direction: column; gap: 0; }
+    .lista-eventos { width: 100%; }
+}
+
+@media (max-width: 620px) {
+    .evento {
+        grid-template-columns: 56px 1fr;
+        gap: 16px;
+        padding: 16px 2px;
+    }
+    .evento-dia { font-size: 1.6rem; }
+    .evento-lado {
+        grid-column: 2;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 8px;
+    }
+}

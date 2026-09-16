@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cuenta.css">
+</head>
+<body class="pagina-cuenta">
+
+    <div class="marca-cuenta">
+        <a href="index.html">Escaparate Musical</a>
+    </div>
+
+    <main class="tarjeta-cuenta">
+        <h1>Crear cuenta</h1>
+        <p class="subtitulo-cuenta">Regístrate para publicar y mantener al día tu perfil.</p>
+
+        <p class="aviso-cuenta">
+            El registro todavía no está activo. Mientras tanto, mándanos los datos
+            por <a href="contactos.html" style="color:var(--rojo-brillo)">Contactos</a>
+            y creamos tu ficha manualmente.
+        </p>
+
+        <form id="formulario-registro" novalidate>
+            <div class="fila-campos">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" class="filtro-texto" autocomplete="name">
+                </div>
+                <div class="campo">
+                    <label for="tipo-cuenta">Soy</label>
+                    <select id="tipo-cuenta" class="filtro-select">
+                        <option value="">Elige</option>
+                        <option value="banda">Banda / Artista</option>
+                        <option value="local">Local / Escenario</option>
+                        <option value="interprete">Intérprete / Profesor</option>
+                        <option value="publico">Público</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" class="filtro-texto" autocomplete="email">
+            </div>
+
+            <div class="campo">
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" class="filtro-texto" autocomplete="new-password">
+                <span class="pista-campo">Mínimo 8 caracteres.</span>
+            </div>
+
+            <button type="submit" class="boton boton-crema boton-ancho">Crear cuenta</button>
+            <p class="mensaje-cuenta" id="mensaje" hidden></p>
+        </form>
+
+        <p class="pie-cuenta">
+            ¿Ya tienes cuenta? <a href="ingresar.html">Ingresa</a>
+        </p>
+    </main>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/cuenta.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* =========================================================================
+   CONTACTOS
+   Depende de css/base.css
+   ========================================================================= */
+
+.contenedor-contacto {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.intro-contacto h2 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 0 12px 0;
+}
+.intro-contacto p {
+    color: var(--crema-suave);
+    max-width: 58ch;
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* ---- Vías de contacto ---- */
+.vias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+}
+
+.via {
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 22px;
+    text-decoration: none;
+    color: var(--crema);
+    transition: border-color var(--transicion), background-color var(--transicion);
+}
+.via:hover { border-color: var(--rojo); background-color: var(--superficie-hover); }
+
+.via h3 {
+    font-family: var(--fuente-titulo);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--tenue);
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+.via p { margin: 0 0 8px 0; font-size: 1rem; color: var(--crema); font-weight: 500; }
+.via span { font-size: 0.78rem; color: var(--apagado); line-height: 1.5; display: block; }
+
+/* ---- Formulario ---- */
+.bloque-formulario h2 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+}
+.nota-formulario { color: var(--tenue); font-size: 0.85rem; margin: 0 0 26px 0; }
+
+.campo { display: flex; flex-direction: column; gap: 7px; margin-bottom: 20px; }
+.campo label { font-size: 0.82rem; color: var(--crema-suave); }
+
+.fila-campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+textarea.filtro-texto {
+    font-family: var(--fuente-texto);
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.error-formulario {
+    color: var(--rojo-brillo);
+    font-size: 0.85rem;
+    margin: 0 0 16px 0;
+}
+
+@media (max-width: 620px) {
+    .fila-campos { grid-template-columns: 1fr; gap: 0; }
+}

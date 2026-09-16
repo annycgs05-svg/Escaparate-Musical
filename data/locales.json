@@ -1,0 +1,38 @@
+[
+  {
+    "id": "teatro-sucre",
+    "nombre": "Teatro Nacional Sucre",
+    "foto": "",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "barrio": "Centro Histórico",
+    "direccion": "Manabí N8-131 y Guayaquil",
+    "aforo": 800,
+    "tipoValue": "teatro",
+    "tipoLabel": "Teatro / Auditorio",
+    "contacto": "",
+    "descripcion": "Uno de los teatros de ópera más antiguos de Sudamérica y el escenario más prestigioso del Ecuador. Espacio ideal para formatos acústicos, ensambles y conciertos sentados.",
+    "mapaLink": "",
+    "equipamiento": ["Sonido profesional", "Iluminación teatral", "Camerinos", "Butacas"],
+    "proximos": [],
+    "historial": []
+  },
+  {
+    "id": "plaza-belmonte",
+    "nombre": "Plaza Belmonte",
+    "foto": "",
+    "ciudadValue": "quito",
+    "ciudad": "Quito",
+    "barrio": "San Blas",
+    "direccion": "Antonio Ante y Luis Vargas Torres",
+    "aforo": 3000,
+    "tipoValue": "aire-libre",
+    "tipoLabel": "Al aire libre",
+    "contacto": "",
+    "descripcion": "Antigua plaza de toros convertida en escenario multipropósito. Es el punto de referencia para festivales medianos y grandes en el centro de Quito.",
+    "mapaLink": "",
+    "equipamiento": ["Escenario amplio", "Zona de pie", "Acceso vehicular"],
+    "proximos": [],
+    "historial": []
+  }
+]

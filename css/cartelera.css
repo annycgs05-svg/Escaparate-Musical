@@ -1,0 +1,257 @@
+/* =========================================================================
+   CARTELERA — portada editorial de la escena
+   Depende de css/base.css
+   ========================================================================= */
+
+.contenido-cartelera {
+    max-width: var(--ancho-max);
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* ---- Banner de última actualización ---- */
+.banner-actualizacion {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 11px 17px;
+    margin-bottom: 44px;
+    font-size: 0.83rem;
+}
+.banner-actualizacion strong { font-weight: 500; color: var(--crema); }
+.fecha-exacta { color: var(--apagado); }
+
+/* Punto que late: única animación automática del sitio, señala "esto está vivo" */
+.punto-vivo {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--rojo-brillo);
+    box-shadow: 0 0 0 0 var(--rojo-glow);
+    animation: latido 2.4s ease-out infinite;
+    flex-shrink: 0;
+}
+@keyframes latido {
+    0%   { box-shadow: 0 0 0 0 var(--rojo-glow); }
+    70%  { box-shadow: 0 0 0 9px rgba(168,29,35,0); }
+    100% { box-shadow: 0 0 0 0 rgba(168,29,35,0); }
+}
+
+/* ---- Bloques ---- */
+.seccion { margin-bottom: 60px; }
+
+.cabecera-bloque {
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+.titulo-bloque {
+    font-family: var(--fuente-titulo);
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin: 0 0 4px 0;
+    color: var(--crema);
+}
+.subtitulo-bloque { font-size: 0.84rem; color: var(--tenue); margin: 0; }
+
+/* ---- Carrusel de lanzamientos ---- */
+.carrusel { display: flex; align-items: center; gap: 12px; }
+
+.btn-carrusel {
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    color: var(--crema);
+    font-size: 1.4rem;
+    line-height: 1;
+    width: 38px;
+    height: 46px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all var(--transicion);
+}
+.btn-carrusel:hover { border-color: var(--rojo); background-color: var(--rojo); }
+
+.pista-carrusel {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 6px;
+    scrollbar-width: thin;
+}
+.pista-carrusel::-webkit-scrollbar { height: 5px; }
+.pista-carrusel::-webkit-scrollbar-thumb { background: var(--borde); border-radius: 3px; }
+
+.tarjeta-lanzamiento {
+    flex: 0 0 210px;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--crema);
+    transition: border-color var(--transicion);
+}
+.tarjeta-lanzamiento:hover { border-color: var(--rojo); }
+
+.portada-lanzamiento {
+    height: 155px;
+    background: linear-gradient(135deg, var(--rojo-oscuro) 0%, #180E10 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuente-titulo);
+    font-size: 2.4rem;
+    color: rgba(242,235,220,0.3);
+    overflow: hidden;
+}
+.portada-lanzamiento img { width: 100%; height: 100%; object-fit: cover; }
+
+.info-lanzamiento { padding: 14px 15px 16px; }
+.tipo-lanzamiento {
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: var(--rojo-brillo);
+    margin-bottom: 6px;
+}
+.titulo-lanzamiento {
+    font-family: var(--fuente-titulo);
+    font-size: 0.98rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+}
+.artista-lanzamiento { font-size: 0.78rem; color: var(--tenue); margin: 0; }
+
+/* ---- Recomendaciones ---- */
+.grid-recomendaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 22px;
+}
+
+.tarjeta-recomendacion {
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-left: 3px solid var(--rojo);
+    border-radius: var(--radio);
+    padding: 22px;
+    text-decoration: none;
+    color: var(--crema);
+    display: block;
+    transition: background-color var(--transicion);
+}
+.tarjeta-recomendacion:hover { background-color: var(--superficie-hover); }
+
+.etiqueta-recomendacion {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: var(--rojo-brillo);
+    margin-bottom: 9px;
+}
+.nombre-recomendacion {
+    font-family: var(--fuente-titulo);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-bottom: 9px;
+}
+.motivo-recomendacion {
+    font-size: 0.87rem;
+    color: var(--crema-suave);
+    line-height: 1.65;
+    margin: 0;
+}
+
+/* ---- Notas de prensa ---- */
+.lista-prensa { display: flex; flex-direction: column; }
+
+.nota-prensa {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 22px;
+    padding: 22px 4px;
+    border-bottom: 1px solid var(--borde-suave);
+}
+
+.fecha-nota {
+    font-family: var(--fuente-titulo);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--rojo-brillo);
+    padding-top: 3px;
+}
+
+.cuerpo-nota h3 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 0 0 7px 0;
+    color: var(--crema);
+}
+.cuerpo-nota p {
+    font-size: 0.87rem;
+    color: var(--crema-suave);
+    line-height: 1.65;
+    margin: 0 0 9px 0;
+    max-width: 72ch;
+}
+.link-nota { font-size: 0.82rem; color: var(--rojo-brillo); text-decoration: none; }
+.link-nota:hover { text-decoration: underline; }
+
+/* ---- Festivales ---- */
+.grid-festivales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta-festival {
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--crema);
+    transition: border-color var(--transicion);
+}
+.tarjeta-festival:hover { border-color: var(--rojo); }
+
+.badge-festival {
+    align-self: flex-start;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--crema-suave);
+    border: 1px solid var(--borde);
+    border-radius: 2px;
+    padding: 3px 9px;
+}
+
+.nombre-festival {
+    font-family: var(--fuente-titulo);
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin: 0;
+}
+.nota-festival { font-size: 0.85rem; color: var(--crema-suave); line-height: 1.6; margin: 0; }
+.ciudad-festival { font-size: 0.78rem; color: var(--tenue); margin: auto 0 0 0; }
+
+@media (max-width: 620px) {
+    .nota-prensa { grid-template-columns: 1fr; gap: 8px; }
+    .seccion { margin-bottom: 44px; }
+}

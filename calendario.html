@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de conciertos — Escaparate Musical</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/calendario.css">
+</head>
+<body>
+
+    <header class="cabecera-seccion">
+        <h1 class="titulo-seccion">Calendario</h1>
+        <nav class="nav-cabecera">
+            <a href="bandas.html" class="boton">Bandas</a>
+            <a href="locales.html" class="boton">Locales</a>
+            <a href="index.html" class="boton boton-volver">← Inicio</a>
+        </nav>
+    </header>
+
+    <div class="contenedor-listado">
+
+        <aside class="sidebar-filtros">
+
+            <div class="grupo-filtro">
+                <span class="titulo-filtro">Cuándo</span>
+                <div class="botones-orden">
+                    <button class="btn-orden activo" id="btn-proximos" type="button">Próximos</button>
+                    <button class="btn-orden" id="btn-pasados" type="button">Pasados</button>
+                </div>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-busqueda">Buscar</label>
+                <input type="search" id="filtro-busqueda" class="filtro-texto"
+                       placeholder="Artista, local o evento…" autocomplete="off">
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-ciudad">Ciudad</label>
+                <select class="filtro-select" id="filtro-ciudad">
+                    <option value="">Todas las ciudades</option>
+                </select>
+            </div>
+
+            <div class="grupo-filtro">
+                <label class="titulo-filtro" for="filtro-tipo">Tipo</label>
+                <select class="filtro-select" id="filtro-tipo">
+                    <option value="">Todos los tipos</option>
+                    <option value="concierto">Concierto</option>
+                    <option value="festival">Festival</option>
+                    <option value="lanzamiento">Lanzamiento</option>
+                    <option value="taller">Taller / Clase</option>
+                    <option value="jam">Jam / Micrófono abierto</option>
+                </select>
+            </div>
+
+            <p class="contador-resultados" id="contador">—</p>
+
+        </aside>
+
+        <main class="lista-eventos" id="lista-eventos">
+            <p class="estado-vacio">Cargando calendario…</p>
+        </main>
+
+    </div>
+
+    <footer class="pie" id="pie"></footer>
+
+    <script src="js/comunes.js"></script>
+    <script src="js/calendario.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "ultimaActualizacion": "2026-09-15T14:30:00",
+
+  "lanzamientos": [
+    { "tipo": "Single", "titulo": "Título del sencillo", "artista": "Nombre de la banda", "bandaId": "", "link": "", "portada": "" }
+  ],
+
+  "recomendaciones": [
+    { "etiqueta": "Descubrimiento", "nombre": "Guardarraya", "bandaId": "guardarraya", "motivo": "Más de dos décadas de fusión experimental construyendo un sonido que no se parece a nada más en el país." },
+    { "etiqueta": "Para revivir", "nombre": "Tripulación de Osos", "bandaId": "tripulacion-de-osos", "motivo": "Su recorrido entre 2013 y 2021 sigue siendo referencia obligada del indie quiteño." },
+    { "etiqueta": "Clásico vivo", "nombre": "Da Pawn", "bandaId": "da-pawn", "motivo": "El formato acústico de Mauro Samaniego es de lo mejor que se puede ver en Quito ahora mismo." }
+  ],
+
+  "prensa": [
+    { "fecha": "2026-09-08", "titulo": "Título de la nota", "resumen": "Resumen breve de la nota de prensa.", "link": "", "fuente": "" }
+  ],
+
+  "festivales": [
+    { "nombre": "Nombre del festival", "ciudad": "Quito", "estado": "Por confirmar", "fecha": "", "nota": "Descripción o dato del festival.", "link": "" }
+  ]
+}
